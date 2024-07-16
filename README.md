@@ -1,0 +1,1 @@
+The Grading System application is designed to assist educators in managing and calculating student grades efficiently. It provides a user-friendly interface for inputting student marks, calculating total, average, percentage, and grade, and storing the data in a file for future reference.
