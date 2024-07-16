@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="800.0" maxWidth="1000.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Label layoutX="400.0" layoutY="32.0" prefHeight="31.0" prefWidth="195.0" text="Grading System ">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="166.0" prefHeight="21.0" prefWidth="80.0" text="English:">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="217.0" prefHeight="21.0" prefWidth="99.0" text="Mathematics:">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="269.0" prefHeight="21.0" prefWidth="99.0" text="Science:">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="320.0" prefHeight="21.0" prefWidth="110.0" text="Social Studies:">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="h1" layoutX="69.0" layoutY="370.0" prefHeight="21.0" prefWidth="99.0" styleClass="label-color" stylesheets="@application.css" text="Hindi:" />
+      
+      <Label fx:id="errorlb" layoutX="69.0" layoutY="447.0" prefHeight="21.0" prefWidth="415.0" textFill="#d30808" />
+      <Label fx:id="a" layoutX="500.0" layoutY="269.0" prefHeight="21.0" prefWidth="99.0" styleClass="label-color" stylesheets="@application.css" text="Average :" />
+      <Label fx:id="t" layoutX="500.0" layoutY="166.0" prefHeight="21.0" prefWidth="87.0" styleClass="label-color" stylesheets="@application.css" text="Total :" />
+      <Label fx:id="g" layoutX="500.0" layoutY="320.0" prefHeight="21.0" prefWidth="66.0" styleClass="label-color" stylesheets="@application.css" text="Grade:" />
+      <Label layoutX="69.0" layoutY="107.0" prefHeight="21.0" prefWidth="66.0" text="Name:">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="r" layoutX="411.0" layoutY="109.0" prefHeight="21.0" prefWidth="66.0" styleClass="label-color" stylesheets="@application.css" text="Roll no:" />
+      <Label fx:id="s" layoutX="670.0" layoutY="107.0" prefHeight="21.0" prefWidth="66.0" styleClass="label-color" stylesheets="@application.css" text="Section:">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="193.0" layoutY="102.0" promptText="Name" styleClass="textField-color" stylesheets="@application.css" />
+      <TextField fx:id="rollno" layoutX="487.0" layoutY="102.0" prefHeight="35.0" prefWidth="159.0" promptText="Roll no." styleClass="textField-color" stylesheets="@application.css" />
+      <TextField fx:id="section" layoutX="741.0" layoutY="102.0" promptText="Section" styleClass="textField-color" stylesheets="@application.css" />
+      <TextField fx:id="eng" layoutX="193.0" layoutY="159.0" promptText="Enter the marks" styleClass="textField-color" stylesheets="@application.css" />
+      <TextField fx:id="math" layoutX="193.0" layoutY="210.0" promptText="Enter the marks" styleClass="textField-color" stylesheets="@application.css" />
+      <TextField fx:id="sci" layoutX="193.0" layoutY="262.0" promptText="Enter the marks" styleClass="textField-color" stylesheets="@application.css" />
+      <TextField fx:id="ss" layoutX="193.0" layoutY="313.0" promptText="Enter the marks" styleClass="textField-color" stylesheets="@application.css" />
+      <TextField fx:id="hindi" layoutX="193.0" layoutY="363.0" promptText="Enter the marks" styleClass="textField-color" stylesheets="@application.css" />
+      <Label fx:id="totallb" layoutX="619.0" layoutY="166.0" prefHeight="21.0" prefWidth="244.0" styleClass="mainLabel" stylesheets="@application.css" />
+      <Label fx:id="avglb" layoutX="624.0" layoutY="269.0" prefHeight="21.0" prefWidth="244.0" styleClass="mainLabel" stylesheets="@application.css" />
+      <Label fx:id="gradelb" layoutX="624.0" layoutY="320.0" prefHeight="21.0" prefWidth="244.0" styleClass="mainLabel" stylesheets="@application.css" />
+      <Button fx:id="calculatebtn" layoutX="245.0" layoutY="553.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="133.0" styleClass="button-color-calculate" stylesheets="@application.css" text="Calculate" />
+      <Label fx:id="p" layoutX="500.0" layoutY="217.0" prefHeight="21.0" prefWidth="87.0" styleClass="label-color" stylesheets="@application.css" text="Percentage:" />
+      <Label fx:id="percentagelb" layoutX="623.0" layoutY="217.0" prefHeight="21.0" prefWidth="159.0" styleClass="mainLabel" stylesheets="@application.css" />
+      <Button fx:id="clearbtn" layoutX="592.0" layoutY="553.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="133.0" styleClass="button-color-clear" stylesheets="@application.css" text="Clear" />
+      <Button fx:id="savebtn" layoutX="418.0" layoutY="553.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="133.0" styleClass="button-color-save" stylesheets="@application.css" text="Save" />
+   </children>
+</AnchorPane>

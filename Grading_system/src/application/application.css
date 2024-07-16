@@ -1,0 +1,47 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	-fx-background-color: #FFFFFF;
+}
+
+
+.button-color-calculate {
+	-fx-background-color: #6200EE;
+	-fx-background-radius: 5;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-weight: bold;
+	
+}
+
+.button-color-save {
+	-fx-background-color: #50D5B7;
+	-fx-background-radius: 5;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-weight: bold;
+}
+
+.button-color-clear {
+	-fx-background-color: #D45769;
+	-fx-background-radius: 5;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-weight: bold;
+}
+
+.textField-color {
+	-fx-border-color: #C5C6C7;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.label-color {
+	-fx-font-family: Arial;
+	-fx-font-weight: bold;
+	-fx-font-size: 15;
+}
+
+.mainLabel {
+	-fx-font-family: Arial;
+	-fx-font-size: 16;
+	-fx-font-style: italic ;
+	
+}

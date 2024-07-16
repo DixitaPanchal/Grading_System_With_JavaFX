@@ -1,0 +1,12 @@
+Name:Adi
+Roll no.1
+Section:E
+English:100.0
+Mathematics:100.0
+Science:100.0
+Social Science:100.0
+Hindi:100.0
+Total:500.0
+Average:100.0
+Percentage: 100.0%
+Grade:A
